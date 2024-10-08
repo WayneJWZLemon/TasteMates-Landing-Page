@@ -1,5 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
 // import { Box, Button, Heading, Text } from "@chakra-ui/react";
-
 // function App() {
 //   return (
 //     <Box
@@ -23,9 +23,7 @@
 //     </Box>
 //   );
 // }
-
 function App() {
-  return <h1>Hello World!</h1>;
+    return _jsx("h1", { children: "Hello World!" });
 }
-
 export default App;
